@@ -1,7 +1,18 @@
-# q2distr: Quantiles to distributions
+# Ellipses
 
-This is a simple Streamlit app to visually get distribution parameters from their quantiles.
+This is a _learning_ tool to help improve your ellipse drawing skills.
 
-It's intended use is to fit Bayesian models with informative priors. Usually, one has certain idea of the possible ranges of a parameter but translating them into the actual distribution parameters is time consuming. This app facilitates such calculations.
+You are given a sample ellipse and you are asked to draw it on the provided canvas (ideally, with an stylus on a tablet). Then you can compare your results with:
 
-The range of available distributions is very limited. New distributions could/will be added in the future. Contact the author in case you are interested in a particular one (or feel free to fork the repo yourself, of course).
+* The original ellipse.
+* The best fitting ellipse to your drawing.
+
+## Running the app
+
+You can run it locally using
+
+`pipenv run streamlit run ellipses.py`
+
+after having installed all the dependencies using
+
+`pipenv install`
